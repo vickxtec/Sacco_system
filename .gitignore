@@ -1,0 +1,23 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Dependency directories
+/vendor/
+/node_modules/
+
+# Environment and local files
+.env
+.env.local
+.env.*.local
+*.log
+*.cache
+*.tmp
+
+# Runtime uploads and generated files
+/uploads/*
+!/uploads/.gitignore
